@@ -65,7 +65,7 @@ class Song
     song_name_mp = file_parts[1].split(".")
     song_name = song_name_mp[0]
     artist_name = file_parts[0]
-    new_song = self.new
+    new_song = self.create_by_name(name_of_song)
   end
   
   def self.destroy_all
